@@ -1,0 +1,316 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.contenedor,nav,.footer_contenedor{
+	width: 90%;
+	max-width: 1400px;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*INICIO DE HEADER*/
+
+header .nombre_logo{
+	margin: auto;
+	background:url(../img/fondo1.jpg); 
+	height: 275px;
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+header .nombre_logo .logo{
+	margin: auto;
+	padding: 10px 0px;
+	width: 800px;
+	text-align: center;
+}
+header .nombre_logo .logo img{
+	border-radius: 50%;
+	width: 10em;
+	height: 10em;
+}
+header .nombre_logo .logo h1{
+	color: #FFA400;
+}
+header .main{
+	background-color:#000;
+}  
+header nav{	 
+	display: flex;
+} 
+header nav a{
+	text-decoration: none;
+	padding: 16px 40px;
+	margin-right: 1rem;
+	color: #fff;
+}
+header nav a:hover{
+	background-color:#009FFD; 
+	color:#000;
+}
+header .main .contacto{
+	background: #009FFD;
+	color: #000;
+}
+ /*FIN DEL HEADER*/
+
+ /*INICIO CONTENIDO PRINCIPAL*/
+
+header .main .contacto{
+	background: #009FFD;
+	color: #000;
+}
+.main{
+	background: rgb(255,255,255);
+}
+.main .contenedor{
+ 	display: flex;
+ 	width: 100%;
+ 	height: auto;
+ }
+.main .contenedor .gadjets{
+	padding: 20px;
+ 	display: inline-block;
+ 	width: 400px;
+ 	font-weight: 400;	
+ }
+ .main .contenedor .gadjets:nth-child(1){
+ 	border-right: 1.5px solid rgba(0,0,0,.1);
+ }
+ .main .contenedor .gadjets h2{
+ 	padding-bottom: 15px;
+ }
+.main .contenedor .gadjets .items{
+	display: flex;
+	padding: 10px;
+}
+.main .contenedor .gadjets hr{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	display: block;
+	overflow: visible;
+	margin: 1rem 0rem;
+}
+.main .contenedor .gadjets .items .caja i{
+	font-size: 30px;
+	color: #7a7a7a;
+}
+.main .contenedor .gadjets .items .caja a{
+	text-decoration: none;
+	color: #009FFD;
+}
+.main .contenedor .gadjets .items .icono{
+	width: 2em;
+	height: 2em;
+	margin-right: 30px;
+}
+.main .contenedor .items {
+	text-align: left;
+	list-style:none;
+}
+.main .contenedor .items ul{
+	list-style: none;
+}
+
+/**/
+.main .contenedor .cajilla{ 
+	width: 100%;
+}
+.main .contenedor .items .item{
+	margin:10px 0px 15px 0px  ;
+	display: flex;
+}
+.main .contenedor .items .item .labels{
+	width: 23%;
+	height:10%;
+	padding: 5px;
+}
+.main .contenedor .items .item .inputs{
+	width: 50%;
+	height: 100%;
+	margin-left: 5rem;
+	padding: 5px;
+}
+.main .contenedor .items .item  .inputs select,input,textarea,.archivo{
+	border: 1px solid rgba(0,0,0,.15);
+	box-shadow: 0 0 2px 1px rgba(6,67,165,.22)!important;
+	color: #55595c;
+	padding: 8px;
+	border-radius: 8px;
+	width: 90%;
+}
+.main .contenedor .items .item .inputs select:focus, input:focus, textarea:focus, .parrafo:focus{
+	border:1px solid #0275d8;
+	border-radius: 8px;
+	outline: none;
+}
+.main .contenedor .items .item .archivo{
+	position: relative;
+	margin-left: 5.4rem;
+	width: 44%;
+	padding: 0px;
+	background: #eceeef;
+	float: left;
+}
+.main .contenedor .items .item .archivo .parrafo{
+	width: 50%;
+	background:#000;
+	border-radius: 8px 0px 0px 8px;
+}
+.main .contenedor .items .item .archivo .parrafo p{
+	padding: 5px;
+	font-size: 14PX;
+	background: #fff;
+	border-radius: 8px 0px 0px 8px;
+}
+.main .contenedor .items .item  .inputs input[type="file"]{
+	display: inline-block;
+  	color: white;
+  	cursor: pointer;
+  	position: absolute;
+  	top: 0;
+  	right: 0;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	height: 100%;
+  	opacity:0;
+  	cursor: pointer;
+ } 
+.main .contenedor .items .inputs textarea{
+	width: 600px;
+	max-width: 600px;
+	min-width: 600px;
+	height: 90px;
+	min-height: 90px;
+	max-height: 120px
+}
+.main .contenedor .items .inputs .boton{ 
+	width: 600px;
+	display: flex;
+	justify-content: flex-end;
+	margin: 10px 0px;
+}
+.main .contenedor .items .inputs .boton .btn{
+	width: auto;
+	padding: 10px 15px;
+	cursor: pointer;
+	background-color: #0275d8;
+	color: #fff;	
+	border:none;
+}
+.main .contenedor .items .inputs .boton .btn:hover{
+	background:#0159A1;
+}
+.main .banner .contenedor{
+	margin-top: 0px;
+	color: #fff;
+
+}
+.main .banner .contenedor .info{
+	text-align: center;
+	margin: auto; 
+}
+.banner{
+	width: 100%
+	margin:auto;
+}
+.banner .contenedor{
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6ac2dd+0,7b00ff+27,7b00ff+73,6ac2dd+100 */
+background: #6ac2dd; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #6ac2dd 0%, #7b00ff 27%, #7b00ff 73%, #6ac2dd 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  #6ac2dd 0%,#7b00ff 27%,#7b00ff 73%,#6ac2dd 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  #6ac2dd 0%,#7b00ff 27%,#7b00ff 73%,#6ac2dd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6ac2dd', endColorstr='#6ac2dd',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+width: 100%;
+height: 100px;
+margin:40px 0px auto;
+display: flex;
+justify-content: space-between; 
+}
+
+.banner .contenedor .caja{
+	/*border:solid 2px #000;*/
+	padding: 30px;
+	color: #fff;
+	font-weight: 400;
+}
+.banner .contenedor .caja a{
+	text-align: center;
+	vertical-align: middle;
+	color: rgba(255,255,255,0.90);
+	text-decoration: none;
+}
+.banner .contenedor .caja span{
+	text-align: center;
+	vertical-align: top;
+}
+.banner .contenedor .caja i{
+	font-size: 40px;
+	margin-right: 15px;
+	color: #000;
+}
+
+/*FIN DE CONTENIDO PRINCIPAL*/
+
+/*INICIO CONTACTO*/
+footer .contacto{
+	background: #000;
+	margin: auto;
+}
+.contacto .footer_contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+.contacto .footer_contenedor .item{
+	margin: 20px auto;
+	text-align: left;
+}
+.contacto .footer_contenedor .item h3{
+	color:#F3F3F4;
+	padding: 6px;
+}
+.contacto .footer_contenedor .item a{
+	display: block;
+	text-align: left;
+	padding: 5px;
+	text-decoration:none; 
+	color:#009FFD;
+}
+.contacto .footer_contenedor .vinculos{
+	text-align: center;
+}
+.contacto .footer_contenedor .vinculos a{
+	display: inline;
+	padding: 10px 16px;
+    font-size: 25px;
+    margin: 0 5px;
+    color: #fff;
+    position: relative;
+    top: 15%;
+    background: #000;
+    border-radius: 50px;}
+    footer .contacto .footer_contenedor .vinculos a.facebook {
+    background: #3b5998;
+    padding: 10px 20px;}
+    footer .contacto .footer_contenedor .vinculos a.twitter {
+    background: #55acee; }
+    footer .contacto .footer_contenedor .vinculos a.instagram {
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  }; }
+}
+/*FIN DE CONTACTO*/
